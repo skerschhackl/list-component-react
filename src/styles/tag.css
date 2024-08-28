@@ -1,0 +1,13 @@
+@import url('./variables.css');
+
+.tag-container { 
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tag {
+	flex: 0 0 auto;
+	margin: 3px;
+	font-weight: var(--tag--font-weight);
+  color: var(--tag--color);
+}

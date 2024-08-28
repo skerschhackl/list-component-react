@@ -1,0 +1,41 @@
+@import url('./variables.css');
+
+.list-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.list-image--placeholder {
+	min-width: 300px;
+	width: 100%;
+	height: 300px;
+	background-color: var(--list--placeholder-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: var(--list--border-radius);
+}
+
+.list-image--img {
+	width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: var(--list--border-radius);
+}
+
+.list-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 .25rem;
+}
+
+.list-title--span {
+	/* color: var(--text-color--highlight); */
+}
+
+.list-item-info--title--icon {
+	color: var(--list--color-highlight);
+}

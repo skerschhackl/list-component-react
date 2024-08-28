@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 3rem auto;
+  max-width: 600px;
+}
+@media (max-width: 599px) {
+  .wrapper {
+    margin: 1rem ;
+    max-width: 599px;;
+  }
+}
+
+.footer {
+  border-top: 2px solid var(--footer--border-color);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
